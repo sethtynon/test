@@ -200,17 +200,18 @@ em { font-style: italic; color: var(--c-brand); }
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
 }
 .service-card {
-  position: relative; background: var(--c-white); border-radius: var(--radius);
-  padding: 40px 32px; border: 1px solid rgba(107,45,26,.06);
+  position: relative; background: #ffffff; border-radius: var(--radius);
+  padding: 40px 32px; border: 1px solid rgba(107,45,26,.12);
   transition: all var(--transition); overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: rgba(196,98,42,.2); }
 .service-card--featured { border: 2px solid var(--c-accent); }
 .service-card__badge {
-  position: absolute; top: 16px; right: -28px;
+  position: absolute; top: 20px; right: 20px;
   background: var(--c-accent); color: var(--c-white);
   font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
-  padding: 6px 40px; transform: rotate(45deg);
+  padding: 6px 14px; border-radius: 20px; z-index: 1;
 }
 .service-card__icon { margin-bottom: 20px; }
 .service-card__title { margin-bottom: 12px; }
@@ -237,8 +238,9 @@ em { font-style: italic; color: var(--c-brand); }
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
 }
 .why-us__card {
-  background: var(--c-white); border-radius: var(--radius); padding: 36px 28px;
-  border: 1px solid rgba(107,45,26,.06); transition: all var(--transition);
+  background: #ffffff; border-radius: var(--radius); padding: 36px 28px;
+  border: 1px solid rgba(107,45,26,.12); transition: all var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 .why-us__card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
 .why-us__icon { margin-bottom: 16px; }
@@ -286,8 +288,9 @@ em { font-style: italic; color: var(--c-brand); }
    ========================================================================== */
 .testimonials__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .testimonial-card {
-  background: var(--c-white); border-radius: var(--radius); padding: 36px;
-  border: 1px solid rgba(107,45,26,.06); transition: all var(--transition);
+  background: #ffffff; border-radius: var(--radius); padding: 36px;
+  border: 1px solid rgba(107,45,26,.12); transition: all var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 .testimonial-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
 .testimonial-card__stars { color: var(--c-accent); font-size: 1.2rem; margin-bottom: 16px; letter-spacing: 2px; }
@@ -306,8 +309,8 @@ em { font-style: italic; color: var(--c-brand); }
    ========================================================================== */
 .areas__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; margin-bottom: 32px; }
 .areas__region {
-  background: var(--c-white); border-radius: var(--radius); padding: 28px;
-  border: 1px solid rgba(107,45,26,.06);
+  background: #ffffff; border-radius: var(--radius); padding: 28px;
+  border: 1px solid rgba(107,45,26,.12); box-shadow: var(--shadow-sm);
 }
 .areas__region h3 { font-size: 1.05rem; margin-bottom: 12px; color: var(--c-brand); }
 .areas__region li { padding: 4px 0; font-size: .9rem; color: #5a4d44; font-weight: 300; }
@@ -358,8 +361,8 @@ em { font-style: italic; color: var(--c-brand); }
 .contact__info { display: flex; flex-direction: column; gap: 20px; }
 .contact__info-card {
   display: flex; align-items: flex-start; gap: 16px;
-  background: var(--c-white); padding: 24px; border-radius: var(--radius);
-  border: 1px solid rgba(107,45,26,.06);
+  background: #ffffff; padding: 24px; border-radius: var(--radius);
+  border: 1px solid rgba(107,45,26,.12); box-shadow: var(--shadow-sm);
 }
 .contact__info-icon {
   width: 48px; height: 48px; border-radius: 12px; background: var(--c-section);
